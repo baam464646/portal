@@ -13,6 +13,9 @@ return [
     'controllerNamespace' => 'frontend\controllers',
     'defaultRoute' => 'site/home',
     'modules' => [
+		'Urun' => [
+            'class' => 'kouosl\Urun\Module',
+        ],
         'site' => [
             'class' => 'kouosl\site\Module'   // here is our v1 modules
         ],

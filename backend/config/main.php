@@ -13,6 +13,12 @@ return [
     'bootstrap' => ['log'],
     'defaultRoute' => 'site/home',
     'modules' => [
+		'urun' => [
+            'class' => 'kouosl\urun\Module',
+        ],
+		'Urun' => [
+            'class' => 'kouosl\Urun\Module',
+        ],
         'site' => [
             'class' => 'kouosl\site\Module'   // here is our v1 modules
         ], 
