@@ -14,6 +14,14 @@
     },
     "minimum-stability": "stable",
     "repositories": [
+		{
+            "type": "vcs",
+            "url": "https://github.com/kouosl/portal-gii.git"
+        },
+		{
+            "type": "vcs",
+            "url": "https://github.com/baam464646/portal-urun.git"
+        },
         {
             "type": "vcs",
             "url": "https://github.com/kouosl/portal-base.git"
@@ -36,10 +44,6 @@
         },
         {
             "type": "vcs",
-            "url": "https://github.com/kouosl/portal-gii.git"
-        },
-        {
-            "type": "vcs",
             "url": "https://github.com/kouosl/portal-content.git"
         }
     ],
@@ -52,6 +56,7 @@
         "kouosl/portal-theme": "dev-develop",
         "kouosl/portal-site": "dev-develop",
         "kouosl/portal-user": "dev-develop",
+		"kouosl/portal-urun": "dev-master",
         "kouosl/portal-menu": "dev-develop",
         "kouosl/portal-content": "dev-develop"
     },
@@ -61,7 +66,8 @@
         "yiisoft/yii2-faker": "~2.0.0",
         "kouosl/portal-gii": "dev-develop",
         "codeception/base": "^2.2.3",
-        "codeception/verify": "~0.3.1"
+        "codeception/verify": "~0.3.1",
+		"kouosl/portal-gii": "dev-master"
     },
     "config": {
         "process-timeout": 1800,
